@@ -4,3 +4,5 @@
 
 #define VIAL_UNLOCK_COMBO_ROWS { 7, 6 }
 #define VIAL_UNLOCK_COMBO_COLS { 7, 7 }
+
+#undef RGB_MATRIX_ENABLE
