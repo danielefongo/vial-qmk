@@ -121,3 +121,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
   return state;
 }
 #endif
+
+bool matrix_is_on(uint8_t row, uint8_t col) {
+    return (matrix_get_row(row) & ((matrix_row_t)1<<col));
+}
